@@ -9,6 +9,9 @@ https://www.youtube.com/watch?v=rwSHQqQWGnI&list=PLZ5WLsqE1WPGPA0Z0H1XB8P6UwgTHO
 # Ambient Virtual
 python -m venv .venv
 
+
+
+
 # Verififcar restrição de segurança
 # https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/get-executionpolicy?view=powershell-7.5
 Get-ExecutionPolicy -List
@@ -69,8 +72,29 @@ views.py,
 # ######################################################################
 https://www.youtube.com/watch?v=xaaPKGd1R-k&list=PLZ5WLsqE1WPGPA0Z0H1XB8P6UwgTHOSaf&index=3
 
+instalar sqLite Viewer Florian Flampfer
+para visualizar sb.sqLite3
+
+
 importar from django.db import models
 models -> classes modelo das entidadess
 
-instalar sqLite Viewer Florian Flampfer
 
+# usar comando  para fazer migralçao
+python manage.py migrate
+
+# criar a migração do models.py
+python manage.py makemigrations
+
+# ai criar um arquvio no diretorio migration dentro do app Todos
+
+# passar denovo  usar comando  para fazer migralçao para criar o Todos
+python manage.py migrate
+
+
+pip install python-decouple
+pip install dj-database-url
+pip install black
+
+
+ctrl +shift + p
